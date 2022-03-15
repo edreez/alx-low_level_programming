@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <main.h>
+#include <holberton.h>
 #include <stdlb.h>
 /**
- * main - put char
+ * main - print putchar
  *
  * Return: 0
  */

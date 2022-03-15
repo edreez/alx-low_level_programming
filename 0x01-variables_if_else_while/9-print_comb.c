@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints numbers
- *
+ * Description: numbers under 10 with a
  * Return: 0
  */
 int main(void)
@@ -17,6 +17,7 @@ int main(void)
 			putchar( );
 		}
 	}
+
 	putchar('\n');
 	return (0);
 }

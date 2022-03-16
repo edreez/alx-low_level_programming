@@ -1,4 +1,4 @@
-#include "school.h"
+#include "Holberton.h"
 /**
  * main - check code
  *

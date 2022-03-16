@@ -6,15 +6,13 @@
  */
 int main(void)
 {
-	_putchar(95);
-	_putchar(112);
-	_putchar(117);
-	_putchar(116);
-	_putchar(99);
-	_putchar(104);
-	_putchar(97);
-	_putchar(114);
-	_putchar(10);
+	char s[]= {95, 112, 117, 116, 99, 104, 97, 114};
+	int count, size;
 
+	size = sizeof(s) / sizeof(s[0]);
+	/* size = sizeof(s) / sizeof(int)*/
+	for (count = 0; count < size; count++)
+		_putchar(s[count]);
+	_putchar(10);
 	return (0);
 }

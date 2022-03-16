@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char s[]= {95, 112, 117, 116, 99, 104, 97, 114};
+	char s[] = {95, 112, 117, 116, 99, 104, 97, 114};
 	int count, size;
 
 	size = sizeof(s) / sizeof(s[0]);

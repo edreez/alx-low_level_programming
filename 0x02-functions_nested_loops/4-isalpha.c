@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * _isalpha - check the code for character
- *
+ * @c: is a parameter for an argument
  * Return: Always 0
+ *
  */
 int _isalpha(int c)
 {

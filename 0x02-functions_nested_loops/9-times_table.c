@@ -2,7 +2,7 @@
 /**
  * times_table - prints times table
  */
-void time_table(void)
+void times_table(void)
 {
 	int x, y, z;
 

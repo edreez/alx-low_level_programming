@@ -2,6 +2,8 @@
 /**
  * _islower - check if a char is lower
  *@c: is a parameter for an argument
+ * Return: 0
+ *
  */
 int _islower(int c)
 {

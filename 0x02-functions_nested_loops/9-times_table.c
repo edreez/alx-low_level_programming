@@ -6,9 +6,8 @@ void times_table(void)
 {
 	int x, y, z;
 
-	x = 0;
 
-	while (x < 10)
+	for (x =0; y < 10; i++)
 	{
 		for (y = 0; y < 10; y++)
 		{
@@ -30,7 +29,6 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(z + 48);
 			}
-			x++;
 		}
 		_putchar('\n');
 	}

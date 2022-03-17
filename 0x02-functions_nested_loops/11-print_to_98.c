@@ -1,7 +1,6 @@
 #include <stdio.h>
-
 /**
- * print_t0_98 - prints every number from n to 98
+ * print_to_98 - prints every number from n to 98
  * @n: starting number
  *
  * Description: print all num to 98

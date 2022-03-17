@@ -3,6 +3,9 @@
 /**
  * print_t0_98 - prints every number from n to 98
  * @n: starting number
+ *
+ * Description: print all num to 98
+ * Return: Always (0)
  */
 void print_to_98(int n)
 {

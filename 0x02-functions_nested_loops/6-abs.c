@@ -5,8 +5,8 @@
  * Return : |n|
  */
 int _abs(int n)
-	/* return _abs value */
 {
+	/* _abs : return value */
 	if (n < 0)
 		return (n * -1);
 	return (n);

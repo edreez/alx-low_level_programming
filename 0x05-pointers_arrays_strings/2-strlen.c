@@ -5,7 +5,7 @@
  * @s: input parameter
  *
  * Description: uses pointers
- * REturn: Always (0)
+ * Return: Always (0)
  */
 
 int _strlen(char *s)

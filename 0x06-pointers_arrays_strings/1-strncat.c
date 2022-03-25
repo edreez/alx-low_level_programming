@@ -9,6 +9,7 @@
  *
  * Return:pointer to dest
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
 	/*
@@ -25,10 +26,12 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	dest[i + j] = '\0';
 	return (dest);*/
+
 	int len, i;
 
 	i = 0;
 	len = 0;
+
 	while (dest[len] != '\0')
 	{
 		++len;

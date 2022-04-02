@@ -1,8 +1,9 @@
 #include "main.h"
 /**
 * puts_recursion - using _putchar to print a string
-* _puts_recursion : to use recursion with _putchar
-* s: string details 
+* _puts_recursion : print with recursion;
+* s : string details;
+* 
 * Return: Always 0
 */
 

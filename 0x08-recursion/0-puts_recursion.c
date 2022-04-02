@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * _puts_recursion - using _putchar to print a string.
-* @s : string details; 
+* @s:string details; 
 * Return: Always 0
 */
 

@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * strlen_recursion - using _putchar to print length  of a string.
-* @s:string details; 
+* @s:string details
 * Return: Always 0.
 */
 int _strlen_recursion(char *s)
@@ -9,7 +9,7 @@ int _strlen_recursion(char *s)
 	/* Base Case */
 	if (*s != '\0')
 	{
-	return(1 + _strlen_recursion(s + 1));
+	return (1 + _strlen_recursion(s + 1));
 	}
 
 	else
@@ -17,4 +17,3 @@ int _strlen_recursion(char *s)
 		return (0);
 	}
 }
-	

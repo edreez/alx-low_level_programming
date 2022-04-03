@@ -5,7 +5,7 @@
 *@k: string to add
 *Return: the reverse of the string
 */
-void _print_rev_recursion(char *s);
+void _print_rev_recursion(char *s)
 {
 int k;
 	/* Base Case */
@@ -14,6 +14,6 @@ int k;
 		return;
 	}
 	/* recursion for next character */
-	reverse(s, k + 1);
-	_putchar("%c", s[k]);
+	_print_rev_recursion(s, k + 1);
+	_putchar(*s, s[k]);
 }

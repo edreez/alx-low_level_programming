@@ -1,8 +1,11 @@
 #include "main.h"
 /**
 * factorial: print the factorial of a number
-@n : the given integer
-Return : 0
+*Description: to return negative value when it is less than 0
+*
+@n: n is the required integer.
+* factorial: returning the factorial of a given integer.
+*Return : Always 0
 */
 int factorial(int n)
 {

@@ -12,18 +12,21 @@
 int is_prime_number(int n)/* int i */
 {
 	/* base case */
-	int i = 2;
+	int i;
+
+	i = 2;
 
 	 /*(i = 2; i <= n / 2; i++) */
 	{
 	if (n % i == 0)
 	{
-		return (0);
+		return (1);
 	}
 	else
-        	{
-		return (1);
-        	}
+	{
+	if (n == i)
+		return (0);
+	}
 	return (is_prime_number(n));
 	}
 	return (1);

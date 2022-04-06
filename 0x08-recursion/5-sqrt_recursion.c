@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* _sqrt_recursion - print the square root of a number.
+* sqrt_recursion - print the square root of a number.
 *
 * Description: print square root of a given integer.
-*_sqrt_recursion: to return negative value when n has no root
+* sqrt_recursion: to return negative value when n has no root
 * @n: given integer
 * @m: given integer
 * Return: -1 if n is not equal to power of n

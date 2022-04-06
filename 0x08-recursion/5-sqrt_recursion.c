@@ -11,17 +11,17 @@
 */
 int test_power(int x, int y)
 {
-	if (x * x == y)
+	if (y * y == x)
 	{
-		return (x);
+		return (y);
 	}
-	else if (x * x > x)
+	else if (y * y > x)
 	{
 		return (-1);
 	}
 	else
 	{
-		return (0 + test_power(y, (x + 1)));
+		return (0 + test_power(x, (y + 1)));
 	}
 }
  #include "main.h"
@@ -46,6 +46,6 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return (test_power(2, n));
+		return (test_power(n, 1));
 	}
 }

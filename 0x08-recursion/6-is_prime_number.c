@@ -1,31 +1,47 @@
 #include "main.h"
 /**
-* is_prime_number - print the value of a number.
-* Description: print prime number of a given integer.
-* raised to the power of another number
-* is_prime_number: to return negative value when y is less than 0
-* @n: given integer
-* @i: given integer
-* Return: -1 if y is less than 0
+* prime_test - print the power of a number.
+*
+* Description: print prime of a given integer.
+* prime_test - to return negative value when n has no root
+* @x: given integer
+* @y: given integer
+* Return: -1 if n is not equal to power of n
 * the value of x and y if equal or greater than 1.
 */
-int is_prime_number(int n)/* int i */
+int prime_test(int x, int y)
 {
-	/* base case */
-	int i;
-
-	 for (i = 2; i <= n / 2; i++)
+	if (x % y == 0 && x != y)
 	{
-	if (n % i == 0)
+		return (0);
+	}
+	if (x == y)
+	{
+		return (1);
+	}
+	else
+	{
+		return (prime_test(x, y + 1));
+	}
+}
+#include "main.h"
+/**
+* is_prime_number - print the square root of a number.
+*
+* Description: print square root of a given integer.
+* is_prime_number - to return negative value when n has no root
+* @n: given integer
+* Return: -1 if n is not equal to power of n
+* the value of n if equal or greater than 1.
+*/
+int is_prime_number(int n)
+{
+	if (n < 2)
 	{
 		return (0);
 	}
 	else
 	{
-	if (n == i)
-		return (1);
+		return (prime_test(n, 2));
 	}
-	return (is_prime_number(n));
-	}
-	return (0);
 }

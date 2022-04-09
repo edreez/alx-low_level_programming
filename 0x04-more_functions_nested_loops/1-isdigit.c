@@ -3,18 +3,22 @@
 /**
  * _isdigit - checks if int c is a digit
  * @c: integer c
- * Return: 1 if true or 2 if false
+ * Return: 1 if true or 0 if false
  *
  */
 int _isdigit(int c)
 {
-	 if (c >= 0 && c <= 9)
+	 if (c >= 48 && c <= 58)
 	 {
 		 return (1);
 	 }
-	 else
+	 else if (c >= 97 && c <= 122)
 	 {
 		 return (0);
 	 }
+	else
+	{
+		return (0);
+	}
 
 }

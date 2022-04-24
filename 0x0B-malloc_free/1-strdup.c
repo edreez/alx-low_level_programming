@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "holberton.h"
 /**
 * _strdup - main point
 * @str: string to duplicate

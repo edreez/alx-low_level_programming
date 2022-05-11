@@ -1,14 +1,16 @@
 #include <stdio.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <unistd.h>
+#include "main.h"
+/*
+*#include <sys/types.h>
+*#include <sys/stat.h>
+*#include <fcntl.h>
+*#include <unistd.h>
+*/
 #include <stdlib.h>
 /**
-* main - read only file
-* read_textfile: to access written document
-* filename: pathname
-* letters: number to read and print
+* read_textfile - reads a text file
+* @filename: path of the file to read
+* @letters: number to of letters to read and print
 * Return: Always 0
 */
 

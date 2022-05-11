@@ -6,7 +6,9 @@
 #include <stdlib.h>
 /**
 * main - read only file
-*
+* read_textfile: to access written document
+* filename: pathname
+* letters: number to read and print
 * Return: Always 0
 */
 
@@ -15,7 +17,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	int fd;
 	char *buf;
 	ssize_t r, w;
-	
+
 	if (!filename)
 	{
 		return (0);

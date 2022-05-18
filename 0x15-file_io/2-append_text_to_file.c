@@ -7,7 +7,7 @@
 #include <stdlib.h>
 
 /**
-* create_file - file to create
+* append_text_to_file - apppends text at the end of file
 * @filename: name of the file to create
 * @text_content: a null terminated string
 * Return: 1 on success, -1 on failure

@@ -8,35 +8,6 @@
  * @n: integer value of node
  * Return: Address of the new element
  */
-/*dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
-{
-	dlistint_t *new_node;
-	dlistint_t *current = *head;
-
-	new_node = malloc(sizeof(dlistint_t));
-	if (!new_node)
-	{
-		dprintf(2, "Error: Can't malloc\n");
-		return (NULL);
-	}
-	new_node->n = n;
-	new_node->next = NULL;
-
-	if (!current)
-	{
-		new_node->prev = NULL;
-		*head = new_node;
-		return (new_node);
-	}
-
-	while (current->next)
-	{
-		current = current->next;
-	}
-	current->next = new_node;
-	new_node->prev = current;
-	return (new_node);
-}*/
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *newnode, *temp;
